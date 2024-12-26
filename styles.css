@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+* {
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: relative;
+    height: 80px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header .logo {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+
+}
+
+.logo .bi-spotify {
+    font-size: 40px;
+}
+
+.logo .spotify {
+    font-size: 28px;
+    margin-left: 5px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+
+    padding-right: 200px;
+}
+
+.header-content a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.header-content a:hover {
+    color: rgb(30, 215, 96)
+}
+
+.header-content .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.header-content li {
+    padding: 0 20px;
+}
+
+.header-content img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.section {
+    background-color: rgb(29, 117, 212);
+}
+
+.section .content-1 {
+    margin: 0 180px;
+    padding: 60px 10px 24px;
+}
+
+.content-1 h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.content-1 h2 {
+    display: block;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: 450;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.button-content {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.button-content a {
+    text-decoration: none;
+}
+
+.button-content a .div-btn1 {
+    padding: 15px 30px;
+    border-radius: 40px;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.button-content a .div-btn2 {
+    margin-left: 20px;
+    color: #fff;
+    padding: 15px 30px;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.terms {
+    margin-bottom: 20px;
+}
+
+.terms-text {
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.second-content {
+    display: block;
+    background-color: #fff;
+    margin: 0px 100px;
+    padding: 75px 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-content h1 {
+
+    font-size: 40px;
+    letter-spacing: -0.015em;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.inline-content-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 0 40px;
+    margin-top: 40px;
+    height: 200px;
+}
+
+/* 
+.inline-content-2 .imgs-ul {
+    list-style: none;
+    display: flex;
+    border: 1px solid black;
+    margin: 50px 0;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.inline-content-2 .imgs-ul li {
+
+    padding: 10px 30px;
+    border: 1px solid purple;
+    border-radius: 50%;
+
+} */
+
+.inline-content-2 i {
+    font-size: 50px;
+    padding: 60px;
+    border-radius: 50%;
+    background-color: #EEEEEE;
+}
+
+.texts {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 0px 40px;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.texts .text1,.text2,.text3,.text4 {
+    padding: 10px;
+    margin: 0px 20px;
+}
+.texts .text2 {
+    margin-left: 40px;
+}
+
+.texts .text4 {
+    margin-right: 0px;
+}
+
+.third-content {
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space;
+}
+
+.third-content .title-1 {
+    padding-top: 60px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.third-content .premium {
+    font-size:  38px;
+}
+
+.third-content h4 {
+    padding-top:  10px;
+    font-weight: 300;
+    letter-spacing: 1;
+}
+
+.cplan {
+    
+    background-color: rgb(0, 0, 0);
+    width: 290px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: 155.6px 20px 0 48px;
+    padding: 0px 15px 0px 15px;
+}
+
+.cplan .cplan-text {
+    color: #fff;
+    text-align: center;
+    padding: 8px 16px;
+}
+
+.first-content {
+    margin: 0 0px 0 48px;
+    padding: 0px 15px 0px 15px;
+    border: 1px solid #bcbcbc;
+    width: 290px;
+    height: 600px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px  #bcbcbc;
+}
+
+.inline-content-3-1 {
+    padding: 8px 4px;
+    border: 1px solid rgb(13, 114, 234);
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 3px;
+    color: rgb(13, 114, 234);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.inline-content-3-2 h2{
+    padding-top: 8px;
+}
+
+.inline-content-3-2 h4{
+    padding-top: 3px;
+    margin-bottom: 3px;
+}
+
+.inline-content-3-2 h5{
+    margin-bottom: 20px;
+}
+
+.advice {
+    margin-top: 15px;
+    display: block;
+    list-style: none;
+}
+
+.advice li {
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.advice i {
+    font-size: 28px;
+}
+
+.inline-content-3-4 {
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+}
+
+.inline-content-3-4 .div-btn3 {
+    margin: 12px 0px;
+}
+
+.inline-content-3-4 .btn3 {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.inline-content-3-5 {
+    
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inline-content-3-5 .btn4 {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 550;
+    transition: .2s;
+}
+
+.inline-content-3-5 .btn4:hover {
+    color: rgb(26, 150, 72)
+}
+
+.inline-content-3-6 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.inline-content-3-6 a {
+    color: #646464;
+    font-size: 12px;
+}
+
+.first-content-2 {
+    
+    margin-right: 20px;
+    margin-top: 194px;
+    height: 600px;
+    width: 290px;
+    background-color: #fff;
+    padding: 0px 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 0px 30px  #bcbcbc;
+
+}
+
+.wrapper {
+    margin-left: 110px;
+}
+
+.inline-content-4-1 {
+    padding: 16px 16px 0;
+}
+
+.inline-content-4-1 h2 {
+    font-weight: 700;
+    
+}
+
+.inline-content-4-1 .ayır {
+    padding-bottom: 4px;
+}
+
+.inline-content-4-1 .ayır2 {
+    margin-bottom: 45px;
+}
+
+.inline-content-4-2 .advice-2 {
+    margin-top: 15px;
+    list-style: none;
+    display: block;
+}
+
+.inline-content-4-2 .advice-2 li {
+
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.inline-content-4-2 .advice-2 i {
+    font-size: 28px;
+}
+
+
+.inline-content-4-3 {
+    margin-top: 93px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+
+}
+
+.inline-content-4-3 .div-btn4 {
+    margin: 12px 0px;
+}
+
+.inline-content-4-3 .btn5 {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.inline-content-4-4 {
+
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inline-content-4-4 .btn6{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.inline-content-4-4 .btn6:hover {
+    color: rgb(26, 150, 72);
+}
+
+.inline-content-4-5 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+.inline-content-4-5 .btn7{
+    font-weight: 300;
+    color: #646464;
+    font-size: 12px;
+}
+
+.first-content-3 {
+    margin-right: 20px;
+    margin-top: 194px;
+    width: 290px;
+    height: 600px;
+    background-color: #fff;
+    padding: 0px 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 0px 30px  #bcbcbc;
+}
+
+.inline-content-5-1 {
+    padding: 16px 16px 0;
+}
+
+.inline-content-5-1 h2 {
+    font-weight: 700;
+    
+}
+
+.inline-content-5-1 .ayır3 {
+    padding-bottom: 4px;
+}
+
+.inline-content-5-1 .ayır4 {
+    margin-bottom: 45px;
+}
+
+.inline-content-5-2 .advice-3 {
+    margin-top: 15px;
+    list-style: none;
+    display: block;
+}
+
+.inline-content-5-2 .advice-3 li {
+
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.inline-content-5-2 .advice-3 i {
+    font-size: 28px;
+}
+
+.inline-content-5-3 {
+    margin-top: 49px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+
+}
+
+.inline-content-5-3 .div-btn7 {
+    margin: 12px 0px;
+}
+
+.inline-content-5-3 .btn8 {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.inline-content-5-4 {
+
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inline-content-5-4 .btn9{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.inline-content-5-4 .btn9:hover {
+    color: rgb(26, 150, 72);
+}
+
+.inline-content-5-5 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+.inline-content-5-5 .btn10{
+    font-weight: 300;
+    color: #646464;
+    font-size: 12px;
+}
+
+.first-content-4 {
+    
+    margin-right: 20px;
+    margin-top: 194px;
+    height: 600px;
+    width: 290px;
+    background-color: #fff;
+    padding: 0px 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px 0px 30px  #bcbcbc;
+
+}
+
+.inline-content-6-1 {
+    padding: 16px 16px 0;
+}
+
+.inline-content-6-1 h2 {
+    font-weight: 700;
+    
+}
+
+.inline-content-6-1 .ayır5 {
+    padding-bottom: 4px;
+}
+
+.inline-content-6-1 .ayır6 {
+    margin-bottom: 45px;
+}
+
+.inline-content-6-2 .advice-4 {
+    margin-top: 15px;
+    list-style: none;
+    display: block;
+}
+
+.inline-content-6-2 .advice-4 li {
+
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.inline-content-6-2 .advice-4 i {
+    font-size: 28px;
+}
+
+.inline-content-6-3 {
+    margin-top: 23px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+
+}
+
+.inline-content-6-3 .div-btn10 {
+    margin: 12px 0px;
+}
+
+.inline-content-6-3 .btn11 {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.inline-content-6-4 {
+
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inline-content-6-4 .btn12{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.inline-content-6-4 .btn12:hover {
+    color: rgb(26, 150, 72);
+}
+
+.inline-content-6-5 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+.inline-content-6-5 .btn13{
+    font-weight: 300;
+    color: #646464;
+    font-size: 12px;
+}
